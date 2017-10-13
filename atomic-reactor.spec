@@ -58,6 +58,7 @@ BuildRequires:  python-six
 BuildRequires:  python-osbs >= 0.15
 BuildRequires:  python-backports-lzma
 BuildRequires:  python2-responses
+# BuildRequires:  python3-jsonschema
 %endif # with_check
 
 %if 0%{?with_python3}
@@ -79,6 +80,7 @@ BuildRequires:  python3-flexmock >= 0.10.2
 BuildRequires:  python3-six
 BuildRequires:  python3-osbs >= 0.15
 BuildRequires:  python3-responses
+BuildRequires:  python3-jsonschema
 %endif # with_check
 %endif # with_python3
 
