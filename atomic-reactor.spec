@@ -75,7 +75,7 @@ BuildRequires:  python3-setuptools
 BuildRequires:  python3-pytest
 BuildRequires:  python3-pytest-capturelog
 BuildRequires:  python3-dockerfile-parse >= 0.0.5
-BuildRequires:  python3-docker-py
+BuildRequires:  python3-docker
 BuildRequires:  python3-flexmock >= 0.10.2
 BuildRequires:  python3-six
 BuildRequires:  python3-osbs-client
