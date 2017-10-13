@@ -82,7 +82,7 @@ BuildRequires:  python3-osbs-client
 BuildRequires:  python3-responses
 BuildRequires:  python3-jsonschema
 BuildRequires:  python3-PyYAML
-BuildRequires:  python-docker-squash >= 1.0.0-0.3
+BuildRequires:  python3-docker-squash >= 1.0.0-0.3
 %endif # with_check
 %endif # with_python3
 
